@@ -1,0 +1,109 @@
+PEAK'S GENERAL CAVE LICENSE v1.0
+(PGCL-1.0)
+
+Effective Date: 16 August 2026
+Issued by: Peak885 Legal Department™
+Approved by: The Rock
+
+This software was created in a cave.
+
+Probably.
+
+------------------------------------------------------------
+
+⚠️ THE ANCIENT LAWS OF THE CAVE
+
+§1. Rock is good.
+§2. Fire is useful.
+§3. API is good.
+§4. Bytecode hackery is suspicious.
+§5. If you need ASM, ask Peak885 first.
+§6. Peak885 may respond with "no."
+§7. The rock may override Peak885.
+
+------------------------------------------------------------
+
+⚠️ BYTECODE MODIFICATION POLICY
+
+This policy applies to addons and extensions that depend on
+this project. Forks are explicitly permitted to modify core
+files under the terms of this license.
+
+If you need to modify the internals of this project:
+
+1. Don't.
+2. Check the public API.
+3. Seriously, don't.
+4. If the API doesn't provide what you need, open an issue.
+
+NO BYTECODE HACKERY OR I WILL FIND YOU. :)
+
+If you have somehow reached this section while writing an
+ASM transformer, please put the transformer down slowly and
+step away from the keyboard.
+
+------------------------------------------------------------
+
+🗿 THE CAVE COUNCIL
+
+The Cave Council has reviewed this software and determined
+that it is, in fact, software.
+
+The Council consists of:
+
+- Peak885
+- Peak885 wearing a different hat
+- A rock
+- The Intern (also Peak885)
+
+The rock has veto power.
+
+Peak885 does not know why.
+The rock refuses to explain.
+
+------------------------------------------------------------
+
+⚖️ PEAK885 LEGAL DEPARTMENT™
+
+Department Head: Peak885
+Legal Staff: Peak885
+Compliance Officer: Peak885
+Intern: also Peak885
+Budget: €0
+Office: Cave
+Office Furniture: One rock
+Legal Database: A pile of rocks
+Printer: Rock
+Fax Machine: Another rock
+
+All legal inquiries will be reviewed by Peak885 after
+approximately 3–5 business days, assuming Peak885 remembers.
+
+------------------------------------------------------------
+
+📜 OFFICIAL CAVE NOTICE
+
+This license was written using advanced legal technology.
+
+The technology was a keyboard.
+
+The keyboard was probably not in a cave.
+
+------------------------------------------------------------
+
+🪨 ROCK CERTIFICATION
+
+This license has been reviewed and approved by the
+official Peak885 Legal Rock™.
+
+The rock declined to comment.
+
+------------------------------------------------------------
+
+END OF LICENSE
+
+You may now leave the cave.
+
+Please close the door behind you.
+
+The rock is sleeping.

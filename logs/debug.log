@@ -1,0 +1,8 @@
+2026-08-18 23:15:42 [main] dev.peak885.purepipe.Main.main()
+INFO: Starting Bimbler...
+2026-08-18 23:15:42 [main] dev.peak885.purepipe.Main.main()
+INFO: NewPipe initialized
+2026-08-18 23:15:42 [main] dev.peak885.purepipe.utils.YoutubeExtractor.<init>()
+INFO: NewPipe initialized
+2026-08-18 23:15:43 [AWT-EventQueue-0] dev.peak885.purepipe.Main.lambda$main$0()
+INFO: Bimbler UI initialized
