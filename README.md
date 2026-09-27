@@ -58,7 +58,7 @@ If your application already provides Kotlin through another platform integration
 
 ### Why are the other dependencies not required?
 
-PurePipe Audio bundles and relocates its critical runtime dependencies, including:
+PurePipe Audio bundles its critical runtime dependencies, including:
 
 - NewPipe Extractor
 - OkHttp

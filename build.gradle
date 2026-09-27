@@ -22,18 +22,10 @@ configurations {
 }
 
 dependencies {
-    // |=========================|
-    // |   Bundled + relocated   |
-    // |=========================|
-
     bundle 'com.github.teamnewpipe:newpipeextractor:v0.26.5'
     bundle 'com.squareup.okhttp3:okhttp:4.12.0'
     bundle 'com.github.Walkyst:JAADec-fork:0.1.3'
     bundle 'com.github.ben-manes.caffeine:caffeine:3.2.4'
-
-    // |=========================|
-    // |   Compile-time only     |
-    // |=========================|
 
     compileOnly 'com.github.teamnewpipe:newpipeextractor:v0.26.5'
     compileOnly 'com.squareup.okhttp3:okhttp:4.12.0'
@@ -58,47 +50,6 @@ tasks.shadowJar {
 
     configurations = [project.configurations.bundle]
 
-    // |=========================|
-    // |       Relocations       |
-    // |=========================|
-
-    relocate 'org.schabi.newpipe',
-            'dev.peak885.purepipe.internal.newpipe'
-
-    relocate 'okhttp3',
-            'dev.peak885.purepipe.internal.okhttp3'
-
-    relocate 'okio',
-            'dev.peak885.purepipe.internal.okio'
-
-    relocate 'net.sourceforge.jaad',
-            'dev.peak885.purepipe.internal.jaad'
-
-    relocate 'com.grack.nanojson',
-            'dev.peak885.purepipe.internal.newpipe.nanojson'
-
-    relocate 'org.jsoup',
-            'dev.peak885.purepipe.internal.newpipe.jsoup'
-
-    relocate 'org.jspecify',
-            'dev.peak885.purepipe.internal.jspecify'
-
-    relocate 'org.mozilla.javascript',
-            'dev.peak885.purepipe.internal.newpipe.javascript'
-
-    relocate 'org.mozilla.classfile',
-            'dev.peak885.purepipe.internal.newpipe.javascript.classfile'
-
-    relocate 'com.google',
-            'dev.peak885.purepipe.internal.google'
-
-    relocate 'com.github.benmanes.caffeine',
-            'dev.peak885.purepipe.internal.caffeine'
-
-    // |====================================================================|
-    // |  Don't bundle Kotlin or else there is something wrong with you :)  |
-    // |====================================================================|
-
     exclude 'META-INF/versions/**'
     exclude 'META-INF/kotlin*'
     exclude 'kotlin/**'
@@ -116,10 +67,6 @@ tasks.shadowJar {
 }
 
 tasks.build.dependsOn tasks.shadowJar
-
-// |============================================================|
-// |                   Maven publication                        |
-// |============================================================|
 
 publishing {
     publications {
