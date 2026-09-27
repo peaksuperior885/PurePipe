@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'dev.peak885.purepipe'
-version = '1.0.1'
+version = '1.0.2'
 
 repositories {
     mavenCentral()
@@ -34,7 +34,7 @@ dependencies {
 
     compileOnly 'org.jetbrains.kotlin:kotlin-stdlib:1.9.22'
 
-    implementation 'org.tinylog:tinylog-api:2.7.0'
+    bundle 'org.tinylog:tinylog-impl:2.7.0'
     implementation 'org.tinylog:tinylog-impl:2.7.0'
 
     compileOnly 'org.jetbrains:annotations:26.0.2'
@@ -49,6 +49,42 @@ tasks.shadowJar {
     archiveClassifier.set('')
 
     configurations = [project.configurations.bundle]
+
+    relocate 'org.schabi.newpipe',
+            "${group}.internal.newpipe"
+
+    relocate 'okhttp3',
+            "${group}.internal.okhttp3"
+
+    relocate 'okio',
+            "${group}.internal.okio"
+
+    relocate 'net.sourceforge.jaad',
+            "${group}.internal.jaad"
+
+    relocate 'com.grack.nanojson',
+            "${group}.internal.newpipe.nanojson"
+
+    relocate 'org.jsoup',
+            "${group}.internal.newpipe.jsoup"
+
+    relocate 'org.jspecify',
+            "${group}.internal.jspecify"
+
+    relocate 'org.mozilla.javascript',
+            "${group}.internal.newpipe.javascript"
+
+    relocate 'org.mozilla.classfile',
+            "${group}.internal.newpipe.javascript.classfile"
+
+    relocate 'com.google',
+            "${group}.internal.google"
+
+    relocate 'com.github.benmanes.caffeine',
+            "${group}.internal.caffeine"
+
+    relocate 'org.tinylog',
+            "${group}.internal.tinylog"
 
     exclude 'META-INF/versions/**'
     exclude 'META-INF/kotlin*'
